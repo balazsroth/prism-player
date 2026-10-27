@@ -2,12 +2,34 @@
 
 Modern, **Liquid Glass** felületű médialejátszó a hivatalos **LibVLC** motorra építve – minden formátum, amit a VLC ismer, hardveres gyorsítással.
 
+<p align="center">
+  <img src="docs/screenshots/player.png" alt="Prism Player lejátszás közben" width="860">
+</p>
+
 ## Telepítés
 
 1. Töltsd le a legfrissebb **Prism-Setup-3.0.exe** telepítőt a [Releases](../../releases/latest) oldalról.
 2. Futtasd (rendszergazdai jog nem kell), és kövesd a varázslót.
 
 Windows 10/11 (x64) szükséges.
+
+## Képek
+
+Átlátszó, üvegszerű felület, lebegő vezérlősáv, finom animációk. A kiemelőszín bármikor átváltható (Nézet → Színséma, vagy egyéni szín), az egész felület követi.
+
+| Hanglejátszás | Lejátszási lista |
+|---|---|
+| <img src="docs/screenshots/audio.png" alt="Hanglejátszás hullámformával"> | <img src="docs/screenshots/playlist.png" alt="Lejátszási lista oldalsó fiókja"> |
+
+| Egyéni kiemelőszín | Effektek és szűrők |
+|---|---|
+| <img src="docs/screenshots/accent.png" alt="Rózsaszín színséma"> | <img src="docs/screenshots/effects.png" alt="10 sávos hangszínszabályzó"> |
+
+<p align="center">
+  <img src="docs/screenshots/preferences.png" alt="Beállítások" width="700">
+</p>
+
+*A képeken szereplő videók és hangok a programhoz generált demó anyagok.*
 
 ## Menük
 

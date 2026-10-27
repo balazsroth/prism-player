@@ -64,3 +64,7 @@ A teljes lista a programban: **Súgó → Billentyűparancsok (F1)**; mindegyik 
 * **Felvétel**: a forrást átkódolás nélkül menti a Beállításokban megadott mappába (alapból `Videók\Prism`).
 * **Nem elérhető** (a LibVLC 3 nem támogatja beágyazott lejátszóban): Lua-bővítmények (pl. VLsub – helyette a beépített online feliratkereső van), két felirat egyszerre, VLM, falkép/klónozás külön ablakokban, macOS/Linux.
 
+## Licenc
+
+GNU Affero General Public License v3.0 - lásd a [LICENSE](LICENSE) fájlt. A Prism a LibVLC-t (LGPL) és a PyQt6-ot (GPL) használja.
+

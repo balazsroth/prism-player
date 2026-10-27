@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+build/
+dist/
+installer/
+vlc_runtime/
+backup_ui_v1/
+VLC-LiquidGlass.spec
+test_vlc.py
+desktop.ini

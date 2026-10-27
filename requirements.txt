@@ -1,0 +1,9 @@
+PyQt6
+python-vlc
+pyinstaller
+winrt-Windows.Media.Playback
+winrt-Windows.Media
+winrt-Windows.Foundation
+winrt-Windows.Foundation.Collections
+winrt-Windows.Storage.Streams
+winrt-Windows.Storage

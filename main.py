@@ -154,11 +154,15 @@ def main():
     if instance is not None:
         window.attach_instance(instance)
 
-    if args:
-        window.playlist_mgr.add_files(args, play_now=True)
-
     # Opens full size; the restore button still brings back the 1080×700 window
     window.showMaximized()
+
+    # LibVLC must get the video surface before the first play, or it opens its own
+    # bare "Direct3D11 output" window without Prism's controls
+    window.player_engine.set_video_hwnd(int(window.video_surface.winId()))
+
+    if args:
+        window.playlist_mgr.add_files(args, play_now=True)
     return app.exec()
 
 
